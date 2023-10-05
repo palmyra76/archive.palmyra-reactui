@@ -1,0 +1,220 @@
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    flex-basis: 20%;
+    margin: 10px;
+}
+
+.card-container {
+    height: 100% !important;
+    width: 100%;
+}
+
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+    width: 380px;
+}
+
+.card-header {
+    display: flex;
+    position: relative;
+    margin-top: 1%;
+    margin: 20px;
+    justify-content: flex-end;
+    margin-left: auto;
+    align-items: center;
+}
+
+.card-filter-icon {
+    cursor: pointer;
+}
+
+.empty-child-card-container {
+    margin-top: 15%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(124, 124, 124, 0.85);
+}
+
+.card-view-x2 {
+    flex: 0 1 0;
+    width: 0;
+    min-width: calc(50% - 2px);
+}
+
+.card-view-x3 {
+    flex: 0 1 0;
+    width: 0;
+    min-width: calc(33% - 2px);
+}
+
+.card-view-x4 {
+    flex: 0 1 0;
+    width: 0;
+    min-width: calc(25% - 2px);
+}
+
+.card-view-x5 {
+    flex: 0 1 0;
+    width: 0;
+    min-width: calc(20% - 2px);
+}
+
+.card-view-x6 {
+    flex: 0 1 0;
+    width: 0;
+    min-width: calc(16.6% - 2px);
+}
+
+.card-view-x7 {
+    flex: 0 1 0;
+    width: 0;
+    min-width: calc(14.3% - 2px);
+}
+
+/*...Responsive Card-view-x In ( em )... */
+
+@media screen and (max-width: 85em) {
+    .card-view-x2 {
+        min-width: calc(100% - 3px);
+    }
+}
+
+
+@media screen and (min-width: 70em) and (max-width: 102em) {
+    .card-view-x3 {
+        min-width: calc(50% - 3px);
+    }
+
+}
+
+@media screen and (max-width: 70em) {
+    .card-view-x3 {
+        min-width: calc(100% - 3px);
+    }
+}
+
+
+@media screen and (min-width: 76em) and (max-width: 102em) {
+    .card-view-x4 {
+        min-width: calc(33%);
+    }
+
+}
+
+@media screen and (min-width: 52em) and (max-width: 76em) {
+    .card-view-x4 {
+        min-width: calc(50% - 3px);
+    }
+
+}
+
+@media screen and (max-width: 52em) {
+    .card-view-x4 {
+        min-width: calc(100% - 3px);
+    }
+}
+
+@media screen and (min-width: 85em) and (max-width: 102em) {
+    .card-view-x5 {
+        min-width: calc(25% - 10px);
+    }
+
+}
+
+@media screen and (min-width: 65em) and (max-width: 85em) {
+    .card-view-x5 {
+        min-width: calc(33%);
+    }
+
+}
+
+@media screen and (min-width: 50em) and (max-width: 65em) {
+    .card-view-x5 {
+        min-width: calc(50% - 3px);
+    }
+
+}
+
+@media screen and (max-width: 50em) {
+    .card-view-x5 {
+        min-width: calc(100% - 3px);
+    }
+}
+
+@media screen and (min-width: 85em) and (max-width: 102em) {
+    .card-view-x6 {
+        min-width: calc(20% - 3px);
+    }
+
+}
+
+@media screen and (min-width: 68em) and (max-width: 85em) {
+    .card-view-x6 {
+        min-width: calc(25% - 3px);
+    }
+
+}
+
+@media screen and (min-width: 51em) and (max-width: 68em) {
+    .card-view-x6 {
+        min-width: calc(33%);
+    }
+
+}
+
+@media screen and (min-width: 34em) and (max-width: 51em) {
+    .card-view-x6 {
+        min-width: calc(50% - 3px);
+    }
+
+}
+
+@media screen and (max-width: 34em) {
+    .card-view-x6 {
+        min-width: calc(100% - 3px);
+    }
+}
+
+
+@media screen and (min-width: 87em) and (max-width: 102em) {
+    .card-view-x7 {
+        min-width: calc(16.7% - 3px);
+    }
+
+}
+
+@media screen and (min-width: 73em) and (max-width: 87em) {
+    .card-view-x7 {
+        min-width: calc(20% - 3px);
+    }
+
+}
+
+@media screen and (min-width: 58em) and (max-width: 73em) {
+    .card-view-x7 {
+        min-width: calc(25% - 3px);
+    }
+
+}
+
+@media screen and (min-width: 44em) and (max-width: 58em) {
+    .card-view-x7 {
+        min-width: calc(33%);
+    }
+
+}
+
+@media screen and (min-width: 30em) and (max-width: 44em) {
+    .card-view-x7 {
+        min-width: calc(50% - 3px);
+    }
+
+}
+
+@media screen and (max-width: 30em) {
+    .card-view-x7 {
+        min-width: calc(100% - 3px);
+    }
+}

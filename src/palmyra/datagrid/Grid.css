@@ -1,0 +1,123 @@
+.grid-header{
+  display: flex;
+  justify-content: right;
+  margin-left: auto;
+  position: relative;
+  align-items: center;
+  padding: 5px;
+}
+
+.grid-header-filter {
+  padding-right: 10px;
+}
+
+.grid-filter-icons {
+  cursor: pointer;
+}
+
+.table-row:nth-child(odd) {
+  background-color: rgba(220, 220, 220, 0.2);
+}
+
+.table-head {
+  background-color: rgba(72, 152, 231, 0.15);
+}
+
+.grid-header-button {
+  padding-right: 10px;
+  position: relative;
+}
+
+.grid-button-icon {
+  font-size: 1.5rem;
+}
+
+.grid-button-icon {
+  font-size: 1rem;
+}
+
+.grid-btn {
+  background-color: rgba(72, 152, 231, 0.15) !important;
+  color: rgba(0, 0, 0, 0.75) !important;
+  gap: 5px !important;
+}
+
+.density-dropdown-content {
+  position: absolute;
+  width: max-content;
+  top: 110%;
+  right: 0%;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.density-dropdown-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.density-dropdown-content li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.density-dropdown-content li:hover {
+  background-color: rgb(234, 234, 234,0.5);
+  border-radius: 3px;
+}
+
+.drodown-content-text {
+  padding-left: 5px;
+  vertical-align: top;
+
+}
+
+.density-icon {
+  font-size: 22px;
+}
+
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+  width: 380px;
+}
+
+.table {
+  .css-1ex1afd-MuiTableCell-root {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom: 0px solid rgba(224, 224, 224, 1);
+    text-align: left;
+    padding: 16px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  .css-1ygcj2i-MuiTableCell-root {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01071em;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    text-align: left;
+    padding: 16px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+}
+.empty-child-table-container{
+  margin-top: 15%;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(124, 124, 124,0.85);
+}

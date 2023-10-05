@@ -1,0 +1,55 @@
+.palmyra-form-section-header {
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px !important;
+    padding: 40px 10px 10px 2px;
+}
+
+.palmyra-form-field-container-wrapper {
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.palmyra-form-field-container {
+    width: 100% !important;
+    display: flex;
+    text-align: left;
+    word-break: break-all;
+    padding: 10px 10px 10px 20px;
+    font-size: 20px !important;
+}
+
+.palmyra-form-field-container-2column {
+    width: calc(50% - 30px) !important;
+}
+
+.palmyra-form-field-container-3column {
+    width: calc(33% - 30px) !important;
+}
+
+.palmyra-form-field-container-4column {
+    width: calc(25% - 30px) !important;
+}
+
+.palmyra-form-field-odd {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%,
+            rgba(128, 128, 128, 0.03) 20%, rgba(128, 128, 128, 0.03) 50%, rgba(0, 0, 0, 0) 70%)
+}
+
+.palmyra-form-field-even {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%,
+            rgba(128, 128, 128, 0.01) 20%, rgba(128, 128, 128, 0.01) 50%, rgba(0, 0, 0, 0) 70%)
+}
+
+.palmyra-form-field-label {
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    width: 40% !important;
+}
+
+.palmyra-form-field-data {
+    color: black;
+    font-size: 1.01em;
+    width: 60% !important;
+}
